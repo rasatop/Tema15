@@ -29,14 +29,14 @@
 		828F7C2817B257CF00EED6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		828F7C2A17B257CF00EED6A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		828F7C2C17B257CF00EED6A9 /* Tema15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tema15-Prefix.pch"; sourceTree = "<group>"; };
-		828F7C2D17B257CF00EED6A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		828F7C2E17B257CF00EED6A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		828F7C2D17B257CF00EED6A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Tema15/AppDelegate.h; sourceTree = "<group>"; };
+		828F7C2E17B257CF00EED6A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Tema15/AppDelegate.m; sourceTree = "<group>"; };
 		828F7C3017B257CF00EED6A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		828F7C3217B257CF00EED6A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		828F7C3417B257CF00EED6A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		828F7C3717B257CF00EED6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		828F7C3917B257CF00EED6A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		828F7C3A17B257CF00EED6A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		828F7C3917B257CF00EED6A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Tema15/ViewController.h; sourceTree = "<group>"; };
+		828F7C3A17B257CF00EED6A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Tema15/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,8 @@
 		828F7C1217B257CF00EED6A9 = {
 			isa = PBXGroup;
 			children = (
+				828F7C4217B257EF00EED6A9 /* Delegate */,
+				828F7C4117B257E400EED6A9 /* Clases */,
 				828F7C2417B257CF00EED6A9 /* Tema15 */,
 				828F7C1D17B257CF00EED6A9 /* Frameworks */,
 				828F7C1C17B257CF00EED6A9 /* Products */,
@@ -83,11 +85,7 @@
 		828F7C2417B257CF00EED6A9 /* Tema15 */ = {
 			isa = PBXGroup;
 			children = (
-				828F7C2D17B257CF00EED6A9 /* AppDelegate.h */,
-				828F7C2E17B257CF00EED6A9 /* AppDelegate.m */,
 				828F7C3617B257CF00EED6A9 /* MainStoryboard.storyboard */,
-				828F7C3917B257CF00EED6A9 /* ViewController.h */,
-				828F7C3A17B257CF00EED6A9 /* ViewController.m */,
 				828F7C2517B257CF00EED6A9 /* Supporting Files */,
 			);
 			path = Tema15;
@@ -105,6 +103,24 @@
 				828F7C3417B257CF00EED6A9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828F7C4117B257E400EED6A9 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				828F7C3917B257CF00EED6A9 /* ViewController.h */,
+				828F7C3A17B257CF00EED6A9 /* ViewController.m */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		828F7C4217B257EF00EED6A9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				828F7C2D17B257CF00EED6A9 /* AppDelegate.h */,
+				828F7C2E17B257CF00EED6A9 /* AppDelegate.m */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
